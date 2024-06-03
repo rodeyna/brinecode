@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>braincode</title>
+    <link rel="icon" href="Screenshot_2024-04-27_204513-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+</head>
+<body>
+  <nav>
+    <ul>
+        <li>
+            <a href="#" class="logo">
+                <img src="img/Screenshot_2024-04-27_204513-removebg-preview.png" alt="logo">
+                <span class="nav-item">Braincode</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="nav-a">
+            <i class="fas fa-user"></i>
+            <span class="nav-item">name</span>
+            </a> 
+        </li>
+        
+        <li>
+            <a href="#" class="nav-a">
+             <i class="fas fa-envelope"></i>
+            <span class="nav-item">email</span>
+          </a>
+        </li>
+        <li>
+           <a href="#" class="nav-a">
+             <i class="fas fa-users"></i>
+            <span class="nav-item">group</span></a>
+        </li>
+        <li><a href="#" class="nav-a">
+            <i class="fas fa-home"></i>
+            <span class="nav-item">Home</span>
+        </a></li>
+        <li><a href="#courses" class="nav-a" >
+            <i class="fas fa-tasks"></i>
+            <span class="nav-item">courses</span>
+        </a></li>
+        <li><a href="#comments" class="nav-a">
+            <i class="fas fa-comment "></i>
+            <span class="nav-item">comment </span>
+        </a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="home">
+      <div class="Welcome">
+        <h3>Welcome to <span>Braincode</span> </h1>
+        <p>Welcome to braincode, your premier destination for professional development and skills enhancement.<br> We are dedicated to empowering individuals with practical knowledge and expertise to succeed in today's dynamic and competitive job market.</p>
+        <a href="#courses" class="btn">get stated</a>
+        </div>
+    </section>
+    <div class="principale">
+      <section id="courses" class="coursesS">
+        <h3 class="eh3">Explore our courses</h3>
+       <div class="courses">
+        <div class="course"> 
+          <img src="img/pexels-divinetechygirl-1181216.jpg" alt="Course 1">
+        <h2>information Technology</h2>    
+        <article>The IT course at Braincode provides comprehensive training in various aspects of Information Technology (IT), covering fundamental concepts, programming, web development, database management, network administration, cybersecurity, cloud computing.</article>
+        <a href="c1.html">Learn More</a>        
+        </div>
+        <div class="course">
+         <img src="img/pexels-goumbik-590016.jpg" alt="Course 2">
+        <h2>marketing</h2> 
+        <article>Marketing is a fundamental business function that involves creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large. </article>
+        <a href="c2.html">Learn More</a>
+    </div>
+        <div class="course"> 
+          <img src="img/eeeaf3165c140b1489780343f2728978.jpg" alt="Course 3">
+        <h2>management</h2>
+         <article>Management is the process of coordinating and overseeing the activities of individuals and groups within an organization to achieve specific goals efficiently and effectively. It involves planning, organizing, leading, and controlling resources to accomplish desired objectives. </article>
+         <a href="c3.html">Learn More</a>
+    </div>
+</div>
+</section>
+<aside class="promotions">
+
+  <h3>Promotions !!</h3>
+  <div class="promotions-content">
+      <div class="promotion">Discounts available for group enrollments and specific training programs!</div>
+      <div class="promotion">Register for IT courses and get <span style='color:red'>20% off!</span></div>
+      <div class="promotion">Register for Strategic Brand Managemen cours before 6/15/2024 and get <span style='color:red'>50% off!</span></div>
+  </div>
+</aside>
+</div>
+<section id="comments">
+  <h2 class="title_promo">Leave a Comment :</h2>
+  <div class="comment_container">
+      <form id="commentForm"  method="post">
+          <label for="email">Email:</label>
+          <input type="email" name="email" placeholder="email" required class="email_input" />
+          <textarea name="comment" placeholder="Comment" required class="comment_input"></textarea>
+          <button type="submit" class="submitBTN">Submit</button>
+      </form>
+      <div id="commentSection" class="comment">
+          <p class="comment_title">comments :</p>
+          
+      </div>
+  </div>
+</section>
+  </main>
+    <script src="script.js"></script>
+</body>
+</html>
